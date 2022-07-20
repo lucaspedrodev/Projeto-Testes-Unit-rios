@@ -50,11 +50,11 @@ return {
 
 const arrayGenerator = (type, object) => {
 if (type === 'keys') {
-  return object.keys;
+  return Object.keys(object);
 } if (type === 'values') {
-  return object.values;
+  return Object.values(object);
 } if (type === 'entries') {
-  return object.entries;
+  return Object.entries(object);
 }
 };
 module.exports = { calculator, arrayGenerator };
