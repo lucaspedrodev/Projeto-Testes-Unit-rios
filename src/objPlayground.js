@@ -58,3 +58,7 @@ if (type === 'keys') {
 }
 };
 module.exports = { calculator, arrayGenerator };
+
+const array = [01, 05, 08, 122, 125]
+
+console.log((array.sort = (a,b) => a-b)());
